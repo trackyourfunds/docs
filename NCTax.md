@@ -1,5 +1,13 @@
 # North Carolina Tax Information
 
+## TrackYourFunds (TYF) Implementation Note
+
+> ?? **TYF uses the Transaction-Level (Invoice) calculation method.**
+>
+> Tax is computed on the aggregate total of all taxable detail lines in a transaction, and the rounding rule is applied **once** to that combined amount. Individual line items are **not** independently rounded — the single rounded tax figure applies to the transaction as a whole, consistent with the invoice basis election permitted under § 105?164.10.
+
+---
+
 ## Reference
 
 [NC General Statutes - Chapter 105, Article 5](https://www.ncleg.gov/EnactedLegislation/Statutes/PDF/ByArticle/Chapter_105/Article_5.pdf)
